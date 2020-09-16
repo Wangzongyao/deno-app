@@ -1,4 +1,4 @@
-import { Request, Response, Router } from "https://deno.land/x/oak/mod.ts";
+import { Request, Response } from "https://deno.land/x/oak/mod.ts";
 import * as log from 'https://deno.land/std/log/mod.ts';
 
 const userData = ({ params, request, response }: { params: any, request: Request, response: Response }) => {

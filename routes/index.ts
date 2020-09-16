@@ -3,6 +3,6 @@ import * as routesHandle from './user/index.ts'
 
 const routes = new Router();
 
-routes.get('/home', routesHandle.userData)
+routes.get('/user/userData', routesHandle.userData)
 
 export default routes
