@@ -15,7 +15,7 @@ const userData = (
       "message": "ok",
       "data": {
         "userId": "140120010221",
-        "userAvatar": "http://baidu.com/",
+        "userAvatar": "http://baidu.com",
         "userName": "土堆先生の名字",
       },
     };

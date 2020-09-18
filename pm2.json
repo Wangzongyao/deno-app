@@ -5,7 +5,7 @@
             "name": "deno-app",
             /**解释器-解释器参数-执行路径 */
             "interpreter": "deno",
-            "interpreter_args": ["run", "--allow-net"],
+            "interpreter_args": ["run", "--allow-all"],
             "script": "server.ts",
 
             /**观察者模式 */
@@ -17,9 +17,9 @@
             "pid_file": "logs/api.pid",
 
             /**注入的环境变量 */
-            "env": {"NODE_ENV": "development", "SERVE_PORT": 3000},
+            "env": {"NODE_ENV": "development", "PORT": 3000},
             /**指定使用--env <env_name>时要注入的环境变量 */
-            "env_production": {"NODE_ENV": "production", "SERVE_PORT": 3000},
+            "env_production": {"NODE_ENV": "production", "PORT": 3000},
 
             /**最小正常运行时间，default：1s */
             "min_uptime": "10s"
