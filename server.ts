@@ -1,5 +1,5 @@
-import { Application } from 'https://deno.land/x/oak/mod.ts';
-import routes from './routes/index.ts';
+import { Application } from "https://deno.land/x/oak/mod.ts";
+import routes from "./routes/index.ts";
 
 /**
  * @description 定义端口

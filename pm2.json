@@ -1,0 +1,28 @@
+{
+    "apps":[
+        {
+            /**进程列表中的进程名称 */
+            "name": "deno-app",
+            /**解释器-解释器参数-执行路径 */
+            "interpreter": "deno",
+            "interpreter_args": ["run", "--allow-net"],
+            "script": "server.ts",
+
+            /**观察者模式 */
+            "watch": ["server.ts", "routes"],
+            /**输出文件路径 */
+            "error_file": "logs/stderr.log",
+            "out_file": "logs/stdout.log",
+            /**已启动进程的pid的文件路径 */
+            "pid_file": "logs/api.pid",
+
+            /**注入的环境变量 */
+            "env": {"NODE_ENV": "development", "SERVE_PORT": 3000},
+            /**指定使用--env <env_name>时要注入的环境变量 */
+            "env_production": {"NODE_ENV": "production", "SERVE_PORT": 3000},
+
+            /**最小正常运行时间，default：1s */
+            "min_uptime": "10s"
+        }
+    ]
+}

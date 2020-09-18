@@ -1,0 +1,636 @@
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+error: Found argument '--allow-net --allow-read' which wasn't expected, or isn't valid in this context
+	Did you mean [32m--[0m[32mallow-net[0m?
+
+USAGE:
+    deno run <SCRIPT_ARG>... --allow-net=<allow-net>
+
+For more information try --help
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[1m[31merror[0m: Uncaught PermissionDenied: read access to <main_module>, run again with the --allow-read flag
+    at [1m[3m[90munwrapResponse[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m24[39m[90m:[39m[90m13[39m[90m)[39m
+    at [1m[3m[90mObject.sendSync[39m[23m[22m [90m([39m[90mdeno:cli/rt/10_dispatch_json.js[39m[90m:[39m[90m51[39m[90m:[39m[90m12[39m[90m)[39m
+    at [1m[3m[90mObject.opMainModule [as mainModule][39m[23m[22m [90m([39m[90mdeno:cli/rt/99_main.js[39m[90m:[39m[90m144[39m[90m:[39m[90m25[39m[90m)[39m
+    at [1m[3m[90minspectRawObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m711[39m[90m:[39m[90m18[39m[90m)[39m
+    at [1m[3m[90minspectObject[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m801[39m[90m:[39m[90m14[39m[90m)[39m
+    at [1m[3m[90minspectValue[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m429[39m[90m:[39m[90m16[39m[90m)[39m
+    at [1m[3m[90minspectArgs[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1249[39m[90m:[39m[90m17[39m[90m)[39m
+    at [1m[3m[90mObject.log[39m[23m[22m [90m([39m[90mdeno:cli/rt/02_console.js[39m[90m:[39m[90m1284[39m[90m:[39m[90m9[39m[90m)[39m
+    at [36mserver.ts[39m:[33m9[39m:[33m9[39m
+    at [1m[3m<anonymous>[23m[22m ([36m<anonymous>[39m)
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[1m[31merror[0m: [0m[1mTS2304[0m [ERROR]: Cannot find name 'env'.
+console.log('deno', env);
+[0m[31m                    ~~~[0m
+    at [0m[36mfile:///Users/wangzongyao/Documents/person/deno-app/server.ts[0m:[0m[33m9[0m:[0m[33m21[0m
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[1m[31merror[0m: [0m[1mTS2304[0m [ERROR]: Cannot find name 'env'.
+console.log('deno', env);
+[0m[31m                    ~~~[0m
+    at [0m[36mfile:///Users/wangzongyao/Documents/person/deno-app/server.ts[0m:[0m[33m9[0m:[0m[33m21[0m
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[1m[31merror[0m: [0m[1mTS2304[0m [ERROR]: Cannot find name 'env'.
+console.log('deno', env);
+[0m[31m                    ~~~[0m
+    at [0m[36mfile:///Users/wangzongyao/Documents/person/deno-app/server.ts[0m:[0m[33m9[0m:[0m[33m21[0m
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[1m[31merror[0m: [0m[1mTS2304[0m [ERROR]: Cannot find name 'env'.
+console.log('deno', env);
+[0m[31m                    ~~~[0m
+    at [0m[36mfile:///Users/wangzongyao/Documents/person/deno-app/server.ts[0m:[0m[33m9[0m:[0m[33m21[0m
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts
+[0m[32mCheck[0m file:///Users/wangzongyao/Documents/person/deno-app/server.ts

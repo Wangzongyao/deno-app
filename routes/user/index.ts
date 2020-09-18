@@ -1,5 +1,5 @@
-import userData from './userData.ts'
+import userData from "./userData.ts";
 
 export {
-    userData
-}
+  userData,
+};
