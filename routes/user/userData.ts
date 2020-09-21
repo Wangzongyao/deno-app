@@ -10,6 +10,7 @@ const userData = (
 ) => {
   try {
     response.status = 200;
+    console.log('执行了这里');
     response.body = {
       "flag": 1,
       "message": "ok",
