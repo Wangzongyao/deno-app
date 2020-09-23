@@ -24,5 +24,24 @@
             /**最小正常运行时间，default：1s */
             "min_uptime": "10s"
         }
-    ]
+    ],
+    "deploy": {
+        /**production" is the environment name */
+        "production": {
+            /**SSH key path, use default $HOME/.ssh */
+            /** "key": "/path/to/some.pem", */
+            /**SSH user */
+            "user": "root",
+            /**SSH host */
+            "host": ["62.234.54.5"],
+            /**GIT remote/branch */
+            "ref": "origin/master",
+            /**GIT remote */
+            "repo": "git@github.com:Wangzongyao/deno-app.git",
+            /**path in the server */
+            "path": "/home/deno/",
+            /**post-deploy action */
+            "post-deploy": "pm2 reload pm2.json --env production"
+        }
+    }
 }
