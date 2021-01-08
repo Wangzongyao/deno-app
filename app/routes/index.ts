@@ -5,13 +5,13 @@
  */
 
 import { Router } from "https://deno.land/x/oak/mod.ts";
-import * as routesHandle from "./user/index.ts";
 
-import authMiddleware from '../common/middlewares/authMiddleware.ts'
+// import authMiddleware from '../common/middlewares/authMiddleware.ts';
+
+import { UserController } from "../controller/index.ts";
 
 const routes = new Router();
 
-routes.get("/user/loginData", authMiddleware, routesHandle.loginData);
-routes.get("/user/userData", authMiddleware, routesHandle.userData);
+routes.get("/user/loginData", UserController.loginData);
 
 export default routes;
