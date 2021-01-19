@@ -6,12 +6,16 @@
 
 import { Router } from "https://deno.land/x/oak/mod.ts";
 
-// import authMiddleware from '../common/middlewares/authMiddleware.ts';
+import authMiddleware from '../common/middlewares/authMiddleware.ts';
 
-import { UserController } from "../controller/index.ts";
+import { 
+    UserController,
+    HomeController,
+} from "../controller/index.ts";
 
 const routes = new Router();
 
 routes.get("/user/loginData", UserController.loginData);
+routes.get("/home/loginData", authMiddleware, HomeController.cardList);
 
 export default routes;
